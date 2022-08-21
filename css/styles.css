@@ -9,13 +9,18 @@
  --black-color: #212121;
  --grey-color: #757575;
  --white-color: #ffffff;
+ --link-footer-cl: #FFFFFF99;
+ --logo-cl: #000000;
+ /* Шрифти */
+ --main-font: 'Roboto', sans-serif;
+ --second-font: 'Raleway', sans-serif;
 }
 
 /* Головна сторінка */
 
 body{
     background-color: var(--white-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     color: var(--black-color);
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -37,14 +42,11 @@ body{
 
 .logo,
 .logo-footer{
-    font-family: 'Raleway', sans-serif;
-
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-
-    color: #000000;
-
+    color: var(--logo-cl);
     text-decoration: none;
 }
 
@@ -184,7 +186,7 @@ body{
 
 .cont-link-footer{
     line-height: 1.71;
-    color: #FFFFFF99;;
+    color: var(--link-footer-cl);
 }
 
 
