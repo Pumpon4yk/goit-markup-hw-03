@@ -435,6 +435,7 @@ button{
 }
 
 .works-item{
+    width: 370px;
     margin-top: 30px;
     margin-left: 30px;
 }
