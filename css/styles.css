@@ -255,7 +255,7 @@ button{
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.7;
+    line-height: 1.13;
     text-align: center;
 
     margin-bottom: 50px;
@@ -380,15 +380,10 @@ button{
 
 .portfolio-list{
     display: flex;
-    margin: 0 auto 50px;
+    margin-bottom: 50px;
     justify-content: center;
     gap: 8px;
 }
-
-.portfolio-list:not(:first-child){
-    margin-left: 8px;
-}
-
 
 .filter{
     background-color: var(--background-color-second);
@@ -443,6 +438,7 @@ button{
 .work-titel-type{
     padding: 20px 24px;
     border: 1px solid var(--frame-cards);
+    border-top: none;
 }
 
 .works-title{
